@@ -1,12 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { CenteredText } from "~/components/centered-text";
 
 export default component$(() => {
-  return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
-  );
+  return <CenteredText />;
 });
 
 export const head: DocumentHead = {
